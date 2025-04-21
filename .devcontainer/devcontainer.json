@@ -4,11 +4,7 @@
 		"dockerfile": "Dockerfile"
 	},
 	"containerUser": "vscode",
-	"runArgs": [
-		"--userns=keep-id",
-		"--security-opt",
-		"label=disable"
-	],
+	"runArgs": [],
 	"customizations": {
 		"vscode": {
 			"settings": {
